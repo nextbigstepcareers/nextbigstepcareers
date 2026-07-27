@@ -1,0 +1,140 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    background:#f8f9fc;
+    color:#1b2b4b;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+    padding:30px;
+}
+
+.container{
+    max-width:850px;
+    background:#ffffff;
+    padding:50px;
+    border-radius:20px;
+    box-shadow:0 15px 40px rgba(0,0,0,.08);
+    text-align:center;
+}
+
+.logo{
+    width:180px;
+    margin-bottom:25px;
+}
+
+h1{
+    color:#0b2d5c;
+    font-size:38px;
+    margin-bottom:15px;
+}
+
+.gold-line{
+    width:90px;
+    height:4px;
+    background:#d4af37;
+    margin:20px auto 30px;
+    border-radius:10px;
+}
+
+.intro,
+.description{
+    font-size:18px;
+    line-height:1.8;
+    margin-bottom:20px;
+}
+h2{
+    margin-top:30px;
+    margin-bottom:20px;
+    color:#0b2d5c;
+}
+
+.services{
+    list-style:none;
+    padding:0;
+    margin:0 0 30px;
+}
+
+.services li{
+    background:#f5f7fb;
+    margin:10px auto;
+    padding:15px;
+    border-left:5px solid #d4af37;
+    border-radius:10px;
+    max-width:500px;
+    font-weight:500;
+}
+
+.tagline{
+    margin:30px 0;
+    font-size:20px;
+    font-weight:600;
+    color:#0b2d5c;
+}
+
+.email{
+    display:inline-block;
+    margin:20px 0;
+    padding:12px 25px;
+    background:#0b2d5c;
+    color:#fff;
+    text-decoration:none;
+    border-radius:30px;
+    font-weight:600;
+}
+.social{
+    margin-top:30px;
+}
+
+.social a{
+    display:inline-block;
+    margin:10px;
+    padding:12px 25px;
+    background:#d4af37;
+    color:#0b2d5c;
+    text-decoration:none;
+    border-radius:30px;
+    font-weight:600;
+    transition:0.3s;
+}
+
+.social a:hover{
+    background:#0b2d5c;
+    color:#ffffff;
+}
+
+.footer{
+    margin-top:35px;
+    color:#777;
+    font-size:15px;
+}
+
+@media(max-width:768px){
+
+.container{
+    padding:30px 20px;
+}
+
+.logo{
+    width:140px;
+}
+
+h1{
+    font-size:28px;
+}
+
+.intro,
+.description{
+    font-size:16px;
+}
+
+.services li{
+    font-size:15px;
+}
+}
